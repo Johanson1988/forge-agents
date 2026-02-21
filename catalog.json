@@ -1,0 +1,22 @@
+{
+  "agents": [
+    {
+      "slug": "product-owner",
+      "name": "Product Owner",
+      "description": "Define problema, alcance, prioriza, coordina agentes. Es el centro de orquestación.",
+      "promptFile": "roles/product-owner.md"
+    },
+    {
+      "slug": "functional-analyst",
+      "name": "Analista Funcional",
+      "description": "Detalla requisitos funcionales, casos de uso, reglas de negocio, estados y validaciones.",
+      "promptFile": "roles/functional-analyst.md"
+    },
+    {
+      "slug": "ux-designer",
+      "name": "UX Designer",
+      "description": "Diseña wireframes, flujos de usuario, experiencia, jerarquía de acciones.",
+      "promptFile": "roles/ux-designer.md"
+    }
+  ]
+}
