@@ -2,21 +2,27 @@
   "agents": [
     {
       "slug": "product-owner",
-      "name": "Product Owner",
-      "description": "Define problema, alcance, prioriza, coordina agentes. Es el centro de orquestación.",
-      "promptFile": "roles/product-owner.md"
+      "name": "Chandler Bing",
+      "description": "Coordina la discusión entre agentes, toma decisiones de producto, prioriza features, y define cuándo un issue está listo para implementación.",
+      "promptFile": "agents/product-owner/prompt.md"
     },
     {
       "slug": "functional-analyst",
-      "name": "Analista Funcional",
-      "description": "Detalla requisitos funcionales, casos de uso, reglas de negocio, estados y validaciones.",
-      "promptFile": "roles/functional-analyst.md"
+      "name": "Amy Santiago",
+      "description": "Analiza requisitos funcionales, define casos de uso, reglas de negocio, criterios de aceptación y escenarios edge-case.",
+      "promptFile": "agents/functional-analyst/prompt.md"
     },
     {
       "slug": "ux-designer",
-      "name": "UX Designer",
-      "description": "Diseña wireframes, flujos de usuario, experiencia, jerarquía de acciones.",
-      "promptFile": "roles/ux-designer.md"
+      "name": "Lily Aldrin",
+      "description": "Diseña la experiencia de usuario: wireframes, flujos, estados de UI, accesibilidad y criterios de diseño responsive.",
+      "promptFile": "agents/ux-designer/prompt.md"
+    },
+    {
+      "slug": "seo-expert",
+      "name": "Tom Haverford",
+      "description": "Experto en SEO técnico, rendimiento web, schema markup, Core Web Vitals y estrategia de posicionamiento orgánico.",
+      "promptFile": "agents/seo-expert/prompt.md"
     }
   ]
 }
