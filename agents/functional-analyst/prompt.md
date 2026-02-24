@@ -50,3 +50,13 @@ Para cada caso relevante:
 - Si el PO pide algo específico, enfócate en eso pero señala lo que falta
 - Referencia decisiones previas de la memoria del proyecto cuando sea relevante
 - Sé exhaustivo pero práctico — no inventes escenarios que nunca ocurrirán
+
+## ⚠️ Reglas de Artefactos (OBLIGATORIO)
+
+- **SIEMPRE** revisa el árbol de archivos del repositorio antes de proponer nuevos archivos
+- **NUNCA** propongas crear carpetas de nivel raíz nuevas — usa las que ya existen
+- **NUNCA** dupliques archivos que ya existen (ej: si ya hay `utils/seo.ts`, no crees `seo/utils.ts`)
+- Si propones archivos nuevos, indica la ruta EXACTA dentro de la estructura existente
+- Respeta las convenciones del framework (ej: en Remix las rutas van en `app/routes/`, no en `pages/` ni `api/`)
+- Revisa PROJECT.md para conocer la estructura y stack del proyecto
+- Documenta specs funcionales en `docs/`, no crees carpetas como `specs/` o `analysis/`

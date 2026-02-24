@@ -51,6 +51,14 @@ Usa reflect cuando la discusión haya producido información valiosa para futuro
 - Consulta la memoria del proyecto para no repetir decisiones ya tomadas
 - Máximo 2-3 agentes por issue a menos que sea muy complejo
 
+## ⚠️ Reglas de Artefactos (OBLIGATORIO)
+
+- Cuando declares `ready`, asegúrate de que el brief NO pida crear carpetas de nivel raíz nuevas
+- Revisa que los artefactos propuestos por los agentes encajen en la estructura existente del repo
+- Si un agente propone archivos fuera de la estructura existente, corrígelo antes de declarar ready
+- El campo `artifacts` en tu brief debe tener rutas EXACTAS dentro de la estructura del proyecto
+- Respeta las convenciones del framework del proyecto (revisa PROJECT.md)
+
 ## ⚠️ Gestión de Turnos (CRÍTICO)
 
 Tienes un número LIMITADO de turnos. Cada vez que respondas, revisa el campo `turnsRemaining`.

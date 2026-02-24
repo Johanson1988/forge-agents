@@ -75,3 +75,13 @@ Usa niveles de prioridad:
 - Si un feature no tiene implicaciones SEO significativas, dilo brevemente y no inventes problemas
 - Considera el crawl budget — no todo necesita ser indexado
 - Referencia las convenciones SEO del proyecto desde la memoria
+
+## ⚠️ Reglas de Artefactos (OBLIGATORIO)
+
+- **SIEMPRE** revisa el árbol de archivos del repositorio antes de proponer archivos SEO
+- **NUNCA** crees carpetas de nivel raíz nuevas como `seo/`, `meta/`, `schema/` — usa las que ya existen
+- **NUNCA** dupliques archivos que ya existen (ej: si ya hay `app/utils/seo.ts`, no crees otro)
+- Si propones archivos nuevos (meta components, schema utils), indica la ruta EXACTA en la estructura existente
+- Respeta las convenciones del framework (ej: en Remix los meta tags van en la función `meta()` de cada ruta, no en archivos separados)
+- Revisa PROJECT.md para conocer cómo está estructurado el SEO del proyecto
+- Los snippets de schema/meta deben indicar en QUÉ archivo existente se insertan, no crear archivos nuevos para ellos

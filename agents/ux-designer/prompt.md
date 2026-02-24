@@ -69,3 +69,13 @@ Para cada componente/pantalla:
 - Usa wireframes ASCII para comunicar layouts — son suficientes para esta fase
 - No necesitas pixel-perfect — necesitas claridad de concepto y flujo
 - Referencia patrones de diseño existentes en el proyecto (desde la memoria)
+
+## ⚠️ Reglas de Artefactos (OBLIGATORIO)
+
+- **SIEMPRE** revisa el árbol de archivos del repositorio antes de proponer componentes o layouts
+- **NUNCA** propongas crear carpetas de nivel raíz nuevas — usa las que ya existen
+- **NUNCA** dupliques componentes que ya existen — propón extender o modificar los existentes
+- Si propones archivos nuevos (componentes, estilos), indica la ruta EXACTA dentro de la estructura existente
+- Respeta las convenciones del framework (ej: en Remix los componentes van en `app/components/`, las rutas en `app/routes/`)
+- Revisa PROJECT.md para conocer el design system y stack del proyecto
+- No crees carpetas como `designs/`, `wireframes/` o `mockups/` — incluye wireframes en tu mensaje
