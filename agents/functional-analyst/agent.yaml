@@ -1,6 +1,11 @@
 slug: functional-analyst
 name: "Amy Santiago"
 role: functional-analyst
-description: "Analiza requisitos funcionales, define casos de uso, reglas de negocio, criterios de aceptación y escenarios edge-case."
+description: "Analiza requisitos funcionales, define criterios de aceptacion, identifica edge cases, y produce especificaciones detalladas."
 personality: b99-amy
 promptFile: agents/functional-analyst/prompt.md
+skills:
+  - source: local/forge-fa-workflow
+    priority: critical
+  - source: local/forge-deliverables-format
+    priority: high
