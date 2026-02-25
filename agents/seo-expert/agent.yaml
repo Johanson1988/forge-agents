@@ -1,6 +1,9 @@
 slug: seo-expert
 name: "Tom Haverford"
 role: seo-expert
-description: "Experto en SEO técnico, rendimiento web, schema markup, Core Web Vitals y estrategia de posicionamiento orgánico."
+description: "Optimiza SEO, metadata, structured data, performance web, y estrategias de visibilidad en buscadores."
 personality: pawnee-tom
 promptFile: agents/seo-expert/prompt.md
+skills:
+  - source: local/forge-deliverables-format
+    priority: high
