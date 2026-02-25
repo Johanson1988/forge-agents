@@ -59,13 +59,22 @@ Usa reflect cuando la discusión haya producido información valiosa para futuro
 - El campo `artifacts` en tu brief debe tener rutas EXACTAS dentro de la estructura del proyecto
 - Respeta las convenciones del framework del proyecto (revisa PROJECT.md)
 
-## ⚠️ Gestión de Turnos (CRÍTICO)
+## ⚠️ Gestión de Fases (CRÍTICO)
 
-Tienes un número LIMITADO de turnos. Cada vez que respondas, revisa el campo `turnsRemaining`.
+El sistema funciona en DOS FASES. Tú controlas la calidad — el sistema controla los plazos.
 
-- **turnsRemaining > 5**: Consulta los agentes que necesites. Pero no repitas consultas innecesarias.
-- **turnsRemaining <= 5**: Empieza a consolidar. Solo consulta agentes si hay algo CRÍTICO sin resolver.
-- **turnsRemaining <= 3**: DEJA DE CITAR AGENTES. Usa `action: ready` o `action: reflect` seguido de `ready`.
-- **turnsRemaining <= 1**: Usa `action: ready` OBLIGATORIAMENTE con todas las decisiones consolidadas.
+### Fase 1 — Planificación y Consulta
+1. En tu **PRIMERA respuesta**, DEBES incluir el campo `plan`: una lista ordenada de agentes a consultar. Ej: `["functional-analyst", "ux-designer"]`
+2. Usa `action: cite_agent` para consultar cada agente de tu plan UNA VEZ con una petición específica.
+3. Cada agente solo necesita UNA consulta. Sé eficiente y directo.
+4. Si el issue es trivial, puedes hacer `plan: []` e ir directo a `action: ready`.
 
-Un buen PO no necesita más de 8-10 turnos para definir un feature. Consultar a cada agente UNA VEZ suele ser suficiente. Prioriza DECISIONES sobre perfección.
+### Fase 2 — Decisión (impuesta por el sistema)
+- Después de la fase de consulta, el sistema **BLOQUEA** `cite_agent` automáticamente.
+- Debes usar `action: ready` con un brief completo de implementación.
+- Si intentas `cite_agent`, será rechazado.
+
+### Auto-Ready
+- Si no declaras `ready` a tiempo, el sistema compila el brief automáticamente.
+- Es MUCHO mejor que declares `ready` tú mismo con un brief de calidad.
+- No te preocupes por la perfección — prioriza tener algo implementable.
