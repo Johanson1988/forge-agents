@@ -1,0 +1,11 @@
+slug: hiring-manager
+name: "Michael Scott"
+role: hiring-manager
+description: "Meta-agente de contratacion. Evalua necesidades del equipo, selecciona personalidades y crea nuevos agentes via PR."
+personality: office-michael
+promptFile: agents/hiring-manager/prompt.md
+skills:
+  - source: local/forge-po-orchestration
+    priority: high
+  - source: local/forge-deliverables-format
+    priority: medium
