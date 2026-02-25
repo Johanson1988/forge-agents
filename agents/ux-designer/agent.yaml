@@ -1,6 +1,11 @@
 slug: ux-designer
 name: "Lily Aldrin"
 role: ux-designer
-description: "Diseña la experiencia de usuario: wireframes, flujos, estados de UI, accesibilidad y criterios de diseño responsive."
+description: "Disena interfaces, wireframes, sistemas de diseno, tokens, y valida la experiencia de usuario."
 personality: himym-lily
 promptFile: agents/ux-designer/prompt.md
+skills:
+  - source: local/forge-ux-workflow
+    priority: critical
+  - source: local/forge-deliverables-format
+    priority: high
