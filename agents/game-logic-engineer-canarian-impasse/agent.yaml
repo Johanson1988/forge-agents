@@ -1,0 +1,7 @@
+slug: game-logic-engineer-canarian-impasse
+name: community-abed
+role: game-logic-engineer-canarian-impasse
+description: "Designs and implements the complete turn-based engine and three levels of deterministic bots for Canarian Impasse, ensuring robust rule-based gameplay without relying on LLMs."
+personality: community-abed
+promptFile: agents/game-logic-engineer-canarian-impasse/prompt.md
+skills:
