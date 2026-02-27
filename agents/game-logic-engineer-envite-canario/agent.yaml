@@ -1,0 +1,7 @@
+slug: game-logic-engineer-envite-canario
+name: community-abed
+role: game-logic-engineer-envite-canario
+description: "Defines technical turn engines and develops deterministic bot logic based on the specific rules of Envite Canario card game."
+personality: community-abed
+promptFile: agents/game-logic-engineer-envite-canario/prompt.md
+skills:
