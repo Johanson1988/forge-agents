@@ -1,0 +1,7 @@
+slug: game-logic-engineer-card-engines
+name: community-abed
+role: game-logic-engineer-card-engines
+description: "Designs and architects deterministic game engines for card games with rule-based bots and strict turn logic, ensuring clear, testable AI behavior without probabilistic or LLM-based methods."
+personality: community-abed
+promptFile: agents/game-logic-engineer-card-engines/prompt.md
+skills:
