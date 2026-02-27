@@ -1,0 +1,7 @@
+slug: game-logic-engineer-card-bots
+name: community-abed
+role: game-logic-engineer-card-bots
+description: "Defines and implements deterministic turn-based game engines and bots for a card game with strict rule adherence and varying difficulty levels, without relying on LLMs."
+personality: community-abed
+promptFile: agents/game-logic-engineer-card-bots/prompt.md
+skills:
