@@ -9,3 +9,13 @@ skills:
     priority: critical
   - source: local/forge-deliverables-format
     priority: high
+wake_triggers:
+  - type: daily_standup
+    cron: "0 9 * * 1-5"
+    task: daily_standup
+    description: "Post daily standup Mon-Fri at 9am UTC: what is in progress, any blockers, plans for today"
+  - type: inbox
+    cron: "*/30 * * * *"
+    task: check_inbox
+    description: "Check inbox every 30 minutes and respond to pending DMs"
+    minMessages: 1
