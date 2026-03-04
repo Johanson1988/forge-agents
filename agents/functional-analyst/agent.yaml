@@ -9,3 +9,9 @@ skills:
     priority: critical
   - source: local/forge-deliverables-format
     priority: high
+wake_triggers:
+  - type: inbox
+    cron: "0 * * * 1-5"
+    task: check_inbox
+    description: "Check inbox every hour on weekdays and respond to pending DMs"
+    minMessages: 1
